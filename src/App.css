@@ -1,11 +1,16 @@
-.app {
-  padding: 30px;
-  background-color: floralwhite;
+.App {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 50px;
 }
 
-.todo {
-  align-items: center;
-  display: flex;
-  font-size: 18px;
-  justify-content: space-between;
+.App .title {
+  font-size: 5rem;
+  padding: 0px 20px 0px 20px;
+  background-color: rgb(242, 255, 123);
+  border-radius: 10px;
+  border: 2px solid black;
+  align-self: center;
+  color: #1b1b1b;
+  font-family: "Covered By Your Grace", cursive;
 }
